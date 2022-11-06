@@ -4,7 +4,7 @@ from starlette.applications import Starlette
 from starlette.endpoints import HTTPEndpoint, WebSocketEndpoint
 from starlette.requests import Request
 from starlette.responses import Response
-from starlette.routing import Route
+from starlette.routing import Route, WebSocketRoute
 from starlette.websockets import WebSocket
 
 logger = logging.getLogger(__name__)
@@ -32,6 +32,6 @@ class WSEndpoint(WebSocketEndpoint):
 instance = Starlette(
     routes=(
         Route("/hello", HelloEndpoint, name="hello"),
-        Route("/ws", WSEndpoint, name="ws"),
+        WebSocketRoute("/ws", WSEndpoint, name="ws"),
     ),
 )
