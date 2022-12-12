@@ -8,7 +8,7 @@ anyio==3.6.2
     # via
     #   httpcore
     #   starlette
-certifi==2022.9.24
+certifi==2022.12.7
     # via
     #   httpcore
     #   httpx
@@ -16,13 +16,13 @@ click==8.1.3
     # via uvicorn
 graphql-core==3.2.3
     # via strawberry-graphql
-h11==0.12.0
+h11==0.14.0
     # via
     #   httpcore
     #   uvicorn
-httpcore==0.15.0
+httpcore==0.16.2
     # via httpx
-httpx==0.23.0
+httpx==0.23.1
     # via starlette
 idna==3.4
     # via
@@ -56,6 +56,8 @@ starlette[full]==0.23.1
 strawberry-graphql==0.142.2
     # via -r requirements.in
 typing-extensions==4.4.0
-    # via strawberry-graphql
+    # via
+    #   starlette
+    #   strawberry-graphql
 uvicorn==0.20.0
     # via -r requirements.in
