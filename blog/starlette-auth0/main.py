@@ -65,7 +65,7 @@ class IndexEndpoint(HTTPEndpoint):
 class LoginEndpoint(HTTPEndpoint):
     async def get(self, request: Request):
         return await oauth.auth0.authorize_redirect(
-            request, "http://localhost:8000/auth/callback"
+            request, str(request.url_for("auth:callback")),
         )
 
 class CallbackEndpoint(HTTPEndpoint):
@@ -85,7 +85,7 @@ class LogoutEndpoint(HTTPEndpoint):
 
         params = urlencode(
             {
-                "returnTo": "http://localhost:8000",
+                "returnTo": str(request.url_for("index")),
                 "client_id": AUTH0_CLIENT_ID,
             },
             quote_via=quote_plus,
