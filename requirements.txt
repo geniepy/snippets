@@ -59,7 +59,7 @@ sniffio==1.3.0
     #   httpx
 starlette[full]==0.26.1
     # via -r requirements.in
-strawberry-graphql==0.167.0
+strawberry-graphql==0.168.1
     # via -r requirements.in
 typing-extensions==4.5.0
     # via strawberry-graphql
