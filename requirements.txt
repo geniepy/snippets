@@ -61,5 +61,5 @@ strawberry-graphql==0.171.3
     # via -r requirements.in
 typing-extensions==4.5.0
     # via strawberry-graphql
-uvicorn==0.21.1
+uvicorn==0.22.0
     # via -r requirements.in
