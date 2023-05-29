@@ -1,4 +1,4 @@
 authlib==1.2.0
 starlette[full]==0.27.0
-strawberry-graphql==0.177.3
+strawberry-graphql==0.178.0
 uvicorn==0.22.0
