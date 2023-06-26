@@ -275,19 +275,19 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyam
 
 [[package]]
 name = "strawberry-graphql"
-version = "0.186.1"
+version = "0.189.1"
 description = "A library for creating GraphQL APIs"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "strawberry_graphql-0.186.1-py3-none-any.whl", hash = "sha256:8aca8db58036f924e79e869d4f8f6c25a0a4063124aa40742dfc9a62dc816f1b"},
-    {file = "strawberry_graphql-0.186.1.tar.gz", hash = "sha256:6c9603dce5f0f852a1af784c4516a7cd2358aec598c1528ac97d4008bd211e77"},
+    {file = "strawberry_graphql-0.189.1-py3-none-any.whl", hash = "sha256:79d6c4001b399781609a802876051610f280737685f2f2b9b3918695cc3e95d2"},
+    {file = "strawberry_graphql-0.189.1.tar.gz", hash = "sha256:167f12c8855ebffa9f948bacfdefdc8a7f092079f60dc2a8defbc4f477481407"},
 ]
 
 [package.dependencies]
 graphql-core = ">=3.2.0,<3.3.0"
 python-dateutil = ">=2.7.0,<3.0.0"
-typing_extensions = ">=4.1.0"
+typing-extensions = ">=4.5.0"
 
 [package.extras]
 aiohttp = ["aiohttp (>=3.7.4.post0,<4.0.0)"]
@@ -338,4 +338,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "6a07567fecce2b52e9bd48014075c2e7f5448e9d6ff7b9f68a5ad2d47aee0fb3"
+content-hash = "48d9809b9d28f831bafca5322e2fba73e65d5ce76e1d4aca0cdffcd15c259ef9"
