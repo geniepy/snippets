@@ -10,7 +10,7 @@ python = "^3.11"
 Authlib = "^1.2.1"
 starlette = "^0.30.0"
 strawberry-graphql = "^0.195.2"
-uvicorn = "^0.22.0"
+uvicorn = "^0.23.1"
 
 
 [build-system]
