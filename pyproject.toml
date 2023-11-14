@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.11"
 Authlib = "^1.2.1"
 starlette = "^0.32.0"
-strawberry-graphql = "^0.211.1"
+strawberry-graphql = "^0.213.0"
 uvicorn = "^0.24.0"
 
 
