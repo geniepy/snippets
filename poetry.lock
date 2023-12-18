@@ -262,13 +262,13 @@ files = [
 
 [[package]]
 name = "starlette"
-version = "0.33.0"
+version = "0.34.0"
 description = "The little ASGI library that shines."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "starlette-0.33.0-py3-none-any.whl", hash = "sha256:6d492f0f7dfb2dd646ac7d80444af4989cd5c5c78f622fac99e39a66c3e01f06"},
-    {file = "starlette-0.33.0.tar.gz", hash = "sha256:8c21f9592451b2016300c5bbc54b181063367b62720a4048656c070319238897"},
+    {file = "starlette-0.34.0-py3-none-any.whl", hash = "sha256:2e14ee943f2df59eb8c141326240ce601643f1a97b577db44634f6d05d368c37"},
+    {file = "starlette-0.34.0.tar.gz", hash = "sha256:ed050aaf3896945bfaae93bdf337e53ef3f29115a9d9c153e402985115cd9c8e"},
 ]
 
 [package.dependencies]
@@ -343,4 +343,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cfe94668a9bdcc87f50d7facc22a3b9ceee7cfe1a65d7cd7a0b1f16b7fc84aca"
+content-hash = "ccf724ec123f88d366e3d74db1ada21d4cb643ac324f43c3c3674ac817f51607"
