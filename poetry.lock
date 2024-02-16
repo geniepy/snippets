@@ -262,20 +262,20 @@ files = [
 
 [[package]]
 name = "starlette"
-version = "0.36.1"
+version = "0.37.1"
 description = "The little ASGI library that shines."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "starlette-0.36.1-py3-none-any.whl", hash = "sha256:d5b43a72f475fd1b9707f661aa66da42d59ae16c9b2a5845b4edee4309c425ee"},
-    {file = "starlette-0.36.1.tar.gz", hash = "sha256:96df8541093dfd37624b5bf980802b99750db6718dd3ca341618fbbcdd6136fb"},
+    {file = "starlette-0.37.1-py3-none-any.whl", hash = "sha256:92a816002d4e8c552477b089520e3085bb632e854eb32cef99acb6f6f7830b69"},
+    {file = "starlette-0.37.1.tar.gz", hash = "sha256:345cfd562236b557e76a045715ac66fdc355a1e7e617b087834a76a87dcc6533"},
 ]
 
 [package.dependencies]
 anyio = ">=3.4.0,<5"
 
 [package.extras]
-full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyaml"]
+full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.7)", "pyyaml"]
 
 [[package]]
 name = "strawberry-graphql"
@@ -344,4 +344,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "0ad518de0a41729cdd104999bba0a7b09e7b4be0ff2397c70851c58fb8ee7376"
+content-hash = "4102a239082206632a5c0552d04e696cfc360325e1744120644fd8f90ae6f5fe"
